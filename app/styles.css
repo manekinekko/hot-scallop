@@ -1,0 +1,70 @@
+:not(:defined) {
+  visibility: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+    
+fast-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  box-shadow: none;
+}
+    
+h2 {
+  font-size: var(--type-ramp-plus-5-font-size);
+  line-height: var(--type-ramp-plus-5-line-height);
+}
+
+a:hover {
+  color:#E55E8E;
+}
+
+.app-link {
+  color: #C01754;
+}
+
+.fast-logo {
+  height: 20vmin;
+  width: 20vmin;
+}
+
+.container {
+  background-color: #282C34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #E5E5E5;
+}
+
+.api-result {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.instructions {
+  margin-top: 50px;
+}
+
+p {
+  margin: 15px;
+}

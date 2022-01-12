@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAST Template</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="fast-logo" src="src/assets/fast-logo.png"/>
+      <p>Hello FAST!</p>
+      <fast-card>
+        <p class="api-result">The current date and time is:</p> 
+        <p><span id="current-time"></span></span></p>
+        <p class="instructions">Edit <code>main.ts</code> and save to test HMR updates.</p>
+        <p>
+          <a
+            class="app-link"
+            href="https://www.fast.design/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn FAST
+          </a>
+        </p>
+      </fast-card>
+    </div>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>
