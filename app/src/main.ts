@@ -8,7 +8,7 @@ provideFASTDesignSystem()
     fastCard(),
   );
 
-fetch("http://localhost:7071/api/getTime")
+fetch("/api/getTime")
   .then(res => res.json())
   .then(({ time }) => {
     const element = document.getElementById("current-time");
